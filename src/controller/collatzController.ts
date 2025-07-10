@@ -1,5 +1,5 @@
 import { FastifyReply, FastifyRequest } from "fastify";
-import { maiorSequenciaCollatz } from "../src/collatz/services/collatzService";
+import { maiorSequenciaCollatz } from '../services/collatzService'
 
 export const collatzController = {
   async post(request: FastifyRequest<{ Body: { limite: number } }>, reply: FastifyReply) {

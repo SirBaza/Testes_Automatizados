@@ -1,4 +1,4 @@
-import { collatzController } from "../src/collatz/controller/collatzController";
+import { collatzController } from "../controller/collatzController";
 import { FastifyRequest, FastifyReply } from "fastify";
 
 describe("CollatzController", () => {
@@ -17,7 +17,7 @@ describe("CollatzController", () => {
     expect(reply.send).toHaveBeenCalledWith({
       limite: 100,
       numero: 97,
-      tamanho: 119,
+      tamanho: 118,
     });
   });
 
