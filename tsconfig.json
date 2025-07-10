@@ -6,5 +6,5 @@
     "esModuleInterop": true,
     "outDir": "dist"
   },
-  "include": ["src", "tests"]
+  "include": ["./collatz/src", "tests"]
 }
